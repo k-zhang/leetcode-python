@@ -30,3 +30,7 @@ class Test(unittest.TestCase):
         self.assertEqual(to_list_node(1), solution.add_two_numbers(to_list_node(0), to_list_node(1)))
         self.assertEqual(to_list_node(1357), solution.add_two_numbers(to_list_node(123), to_list_node(1234)))
         self.assertEqual(to_list_node(2998), solution.add_two_numbers(to_list_node(999), to_list_node(1999)))
+
+
+if __name__ == '__main__':
+    unittest.main()

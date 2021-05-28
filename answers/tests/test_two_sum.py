@@ -10,3 +10,7 @@ class Test(unittest.TestCase):
         self.assertEqual([0, 1], sorted(solution.two_sum([3, 3], 6)))
         self.assertEqual([0, 2], sorted(solution.two_sum([3, 6, -1], 2)))
         self.assertEqual([2, 3], sorted(solution.two_sum([1, 5, 0, 0], 0)))
+
+
+if __name__ == '__main__':
+    unittest.main()
