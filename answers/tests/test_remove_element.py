@@ -1,3 +1,4 @@
+import unittest
 from unittest import TestCase
 from remove_element import remove_element
 
@@ -13,3 +14,7 @@ class Test(TestCase):
         self.assertEqual(2, remove_element([3, 2, 2, 3], 3))
         self.assertEqual(5, remove_element([0, 1, 2, 2, 3, 0, 4, 2], 2))
         self.assertEqual(11, remove_element([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 100))
+
+
+if __name__ == '__main__':
+    unittest.main()

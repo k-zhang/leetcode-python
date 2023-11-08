@@ -1,3 +1,4 @@
+import unittest
 from unittest import TestCase
 from plus_one import *
 
@@ -11,3 +12,7 @@ class MyTestCase(TestCase):
         self.assertEqual([4, 4, 0, 0], plus_one([4, 3, 9, 9]))
         self.assertEqual([5, 0, 0, 0], plus_one([4, 9, 9, 9]))
         self.assertEqual([1, 0, 0, 0, 0], plus_one([9, 9, 9, 9]))
+
+
+if __name__ == '__main__':
+    unittest.main()

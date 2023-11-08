@@ -25,12 +25,11 @@ def to_list_node(number):
 
 class Test(unittest.TestCase):
     def test(self):
-        solution = Solution()
-        self.assertEqual(to_list_node(807), solution.add_two_numbers(to_list_node(342), to_list_node(465)))
-        self.assertEqual(to_list_node(0), solution.add_two_numbers(to_list_node(0), to_list_node(0)))
-        self.assertEqual(to_list_node(1), solution.add_two_numbers(to_list_node(0), to_list_node(1)))
-        self.assertEqual(to_list_node(1357), solution.add_two_numbers(to_list_node(123), to_list_node(1234)))
-        self.assertEqual(to_list_node(2998), solution.add_two_numbers(to_list_node(999), to_list_node(1999)))
+        self.assertEqual(to_list_node(807), add_two_numbers(to_list_node(342), to_list_node(465)))
+        self.assertEqual(to_list_node(0), add_two_numbers(to_list_node(0), to_list_node(0)))
+        self.assertEqual(to_list_node(1), add_two_numbers(to_list_node(0), to_list_node(1)))
+        self.assertEqual(to_list_node(1357), add_two_numbers(to_list_node(123), to_list_node(1234)))
+        self.assertEqual(to_list_node(2998), add_two_numbers(to_list_node(999), to_list_node(1999)))
 
 
 if __name__ == '__main__':
